@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="099663242" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '099663242';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -854,7 +854,7 @@
   <!-- Bottom divider: porcelain plate arc -->
   <div class="index-hero-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,20 Q150,70 300,35 Q450,0 600,20 Q750,40 900,25 Q1050,10 1200,35 L1200,80 Z" fill="#FFFFFF"/>
+      <path d="M0,80 L0,20 Q150,70 300,35 Q450,0 600,20 Q750,40 900,25 Q1050,10 1200,35 L1200,80 Z" fill="#FFFFFF"></path>
     </svg>
   </div>
 </section>
@@ -866,7 +866,7 @@
       <!-- Decorative Motif: small-heart-divider -->
       <div class="index-features-section__header-motif" aria-hidden="true">
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-          <path d="M10 17.5L2.5 10C0.5 8 0.5 4.5 2.5 2.5C4.5 0.5 8 0.5 10 2.5C12 0.5 15.5 0.5 17.5 2.5C19.5 4.5 19.5 8 17.5 10L10 17.5Z" stroke="#E8735A" stroke-width="1.5" fill="none"/>
+          <path d="M10 17.5L2.5 10C0.5 8 0.5 4.5 2.5 2.5C4.5 0.5 8 0.5 10 2.5C12 0.5 15.5 0.5 17.5 2.5C19.5 4.5 19.5 8 17.5 10L10 17.5Z" stroke="#E8735A" stroke-width="1.5" fill="none"></path>
         </svg>
       </div>
       <h2 class="index-features-section__title">המבחר שלנו</h2>
@@ -920,7 +920,7 @@
   <!-- Bottom Divider: Warm-cream scallop edge transitioning to next section -->
   <div class="index-features-section__divider-wrapper" aria-hidden="true">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,60 L0,30 Q25,15 50,30 T100,30 Q125,15 150,30 T200,30 Q225,15 250,30 T300,30 Q325,15 350,30 T400,30 Q425,15 450,30 T500,30 Q525,15 550,30 T600,30 Q625,15 650,30 T700,30 Q725,15 750,30 T800,30 Q825,15 850,30 T900,30 Q925,15 950,30 T1000,30 Q1025,15 1050,30 T1100,30 Q1125,15 1150,30 T1200,30 L1200,60 Z" fill="#FFFFFF"/>
+      <path d="M0,60 L0,30 Q25,15 50,30 T100,30 Q125,15 150,30 T200,30 Q225,15 250,30 T300,30 Q325,15 350,30 T400,30 Q425,15 450,30 T500,30 Q525,15 550,30 T600,30 Q625,15 650,30 T700,30 Q725,15 750,30 T800,30 Q825,15 850,30 T900,30 Q925,15 950,30 T1000,30 Q1025,15 1050,30 T1100,30 Q1125,15 1150,30 T1200,30 L1200,60 Z" fill="#FFFFFF"></path>
     </svg>
   </div>
 </section>
@@ -931,8 +931,8 @@
     <div class="index-benefits-section-content">
       <div class="index-benefits-section-label">
         <svg data-element-type="icon" data-icon-type="svg" aria-hidden="true" class="index-benefits-section-label-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4Z" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4Z" stroke="currentColor" stroke-width="1.5"></path>
+          <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
         </svg>
         <span>למה לבחור באואזיס</span>
       </div>
@@ -945,7 +945,7 @@
         <div class="index-benefits-section-benefit">
           <div class="index-benefits-section-benefit-icon">
             <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20 7L12 3L4 7M20 7L12 11M20 7V17L12 21M12 11L4 7M12 11V21M4 7V17L12 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M20 7L12 3L4 7M20 7L12 11M20 7V17L12 21M12 11L4 7M12 11V21M4 7V17L12 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </div>
           <div class="index-benefits-section-benefit-text">
@@ -957,11 +957,11 @@
         <div class="index-benefits-section-benefit">
           <div class="index-benefits-section-benefit-icon">
             <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M7 21C8.10457 21 9 20.1046 9 19C9 17.8954 8.10457 17 7 17C5.89543 17 5 17.8954 5 19C5 20.1046 5.89543 21 7 21Z" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M17 21C18.1046 21 19 20.1046 19 19C19 17.8954 18.1046 17 17 17C15.8954 17 15 17.8954 15 19C15 20.1046 15.8954 21 17 21Z" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M5 17H3V13M19 17H21V13M3 13L5 7H19L21 13M3 13H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M12 12V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M9 17H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M7 21C8.10457 21 9 20.1046 9 19C9 17.8954 8.10457 17 7 17C5.89543 17 5 17.8954 5 19C5 20.1046 5.89543 21 7 21Z" stroke="currentColor" stroke-width="1.5"></path>
+              <path d="M17 21C18.1046 21 19 20.1046 19 19C19 17.8954 18.1046 17 17 17C15.8954 17 15 17.8954 15 19C15 20.1046 15.8954 21 17 21Z" stroke="currentColor" stroke-width="1.5"></path>
+              <path d="M5 17H3V13M19 17H21V13M3 13L5 7H19L21 13M3 13H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M12 12V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+              <path d="M9 17H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
             </svg>
           </div>
           <div class="index-benefits-section-benefit-text">
@@ -973,10 +973,10 @@
         <div class="index-benefits-section-benefit">
           <div class="index-benefits-section-benefit-icon">
             <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M23 21V19C22.9986 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z" stroke="currentColor" stroke-width="1.5"></path>
+              <path d="M23 21V19C22.9986 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </div>
           <div class="index-benefits-section-benefit-text">
@@ -988,7 +988,7 @@
         <div class="index-benefits-section-benefit">
           <div class="index-benefits-section-benefit-icon">
             <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20.84 4.61C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.61L12 5.67L10.94 4.61C9.9083 3.57831 8.50903 2.99871 7.05 2.99871C5.59096 2.99871 4.19169 3.57831 3.16 4.61C2.12831 5.64169 1.54871 7.04097 1.54871 8.5C1.54871 9.95903 2.12831 11.3583 3.16 12.39L4.22 13.45L12 21.23L19.78 13.45L20.84 12.39C21.351 11.8792 21.7564 11.2728 22.0329 10.6054C22.3095 9.93789 22.4518 9.22248 22.4518 8.5C22.4518 7.77752 22.3095 7.06211 22.0329 6.39464C21.7564 5.72718 21.351 5.12075 20.84 4.61V4.61Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M20.84 4.61C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.61L12 5.67L10.94 4.61C9.9083 3.57831 8.50903 2.99871 7.05 2.99871C5.59096 2.99871 4.19169 3.57831 3.16 4.61C2.12831 5.64169 1.54871 7.04097 1.54871 8.5C1.54871 9.95903 2.12831 11.3583 3.16 12.39L4.22 13.45L12 21.23L19.78 13.45L20.84 12.39C21.351 11.8792 21.7564 11.2728 22.0329 10.6054C22.3095 9.93789 22.4518 9.22248 22.4518 8.5C22.4518 7.77752 22.3095 7.06211 22.0329 6.39464C21.7564 5.72718 21.351 5.12075 20.84 4.61V4.61Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </div>
           <div class="index-benefits-section-benefit-text">
@@ -1022,7 +1022,7 @@
       <article class="index-testimonials-section__card index-testimonials-section__card--offset-top">
         <div class="index-testimonials-section__quote-mark" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 21C6 21 8 18 8 14V7H3V12H6C6 14.5 5 17 3 17V21ZM14 21C17 21 19 18 19 14V7H14V12H17C17 14.5 16 17 14 17V21Z" fill="currentColor"/>
+            <path d="M3 21C6 21 8 18 8 14V7H3V12H6C6 14.5 5 17 3 17V21ZM14 21C17 21 19 18 19 14V7H14V12H17C17 14.5 16 17 14 17V21Z" fill="currentColor"></path>
           </svg>
         </div>
         <blockquote class="index-testimonials-section__quote">
@@ -1037,7 +1037,7 @@
       <article class="index-testimonials-section__card">
         <div class="index-testimonials-section__quote-mark" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 21C6 21 8 18 8 14V7H3V12H6C6 14.5 5 17 3 17V21ZM14 21C17 21 19 18 19 14V7H14V12H17C17 14.5 16 17 14 17V21Z" fill="currentColor"/>
+            <path d="M3 21C6 21 8 18 8 14V7H3V12H6C6 14.5 5 17 3 17V21ZM14 21C17 21 19 18 19 14V7H14V12H17C17 14.5 16 17 14 17V21Z" fill="currentColor"></path>
           </svg>
         </div>
         <blockquote class="index-testimonials-section__quote">
@@ -1052,7 +1052,7 @@
       <article class="index-testimonials-section__card index-testimonials-section__card--offset-bottom">
         <div class="index-testimonials-section__quote-mark" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 21C6 21 8 18 8 14V7H3V12H6C6 14.5 5 17 3 17V21ZM14 21C17 21 19 18 19 14V7H14V12H17C17 14.5 16 17 14 17V21Z" fill="currentColor"/>
+            <path d="M3 21C6 21 8 18 8 14V7H3V12H6C6 14.5 5 17 3 17V21ZM14 21C17 21 19 18 19 14V7H14V12H17C17 14.5 16 17 14 17V21Z" fill="currentColor"></path>
           </svg>
         </div>
         <blockquote class="index-testimonials-section__quote">
@@ -1069,7 +1069,7 @@
 
   <div class="index-testimonials-section__divider-wrapper" aria-hidden="true">
     <svg data-no-icon-edit="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,60 L0,30 Q60,15 120,25 T240,20 Q300,28 360,18 T480,22 Q540,15 600,25 T720,18 Q780,28 840,20 T960,25 Q1020,15 1080,22 T1200,18 L1200,60 Z" fill="var(--bg-light)"/>
+      <path d="M0,60 L0,30 Q60,15 120,25 T240,20 Q300,28 360,18 T480,22 Q540,15 600,25 T720,18 Q780,28 840,20 T960,25 Q1020,15 1080,22 T1200,18 L1200,60 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
@@ -1116,9 +1116,9 @@
   <div class="stats-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <!-- Top strip: slightly pistachio-tinted wave (fills bottom) -->
-      <path d="M0,120 L0,50 Q75,30 150,45 T300,38 Q375,42 450,35 T600,40 Q675,38 750,45 T900,38 Q975,42 1050,35 T1200,40 L1200,120 Z" fill="#FFFFFF"/>
+      <path d="M0,120 L0,50 Q75,30 150,45 T300,38 Q375,42 450,35 T600,40 Q675,38 750,45 T900,38 Q975,42 1050,35 T1200,40 L1200,120 Z" fill="#FFFFFF"></path>
       <!-- Bottom strip: porcelain-white wave (fills bottom) -->
-      <path d="M0,120 L0,75 Q100,60 200,70 T400,65 Q500,68 600,62 T800,68 Q900,65 1000,70 T1200,65 L1200,120 Z" fill="#FFFFFF"/>
+      <path d="M0,120 L0,75 Q100,60 200,70 T400,65 Q500,68 600,62 T800,68 Q900,65 1000,70 T1200,65 L1200,120 Z" fill="#FFFFFF"></path>
     </svg>
   </div>
 </section>
@@ -1166,7 +1166,7 @@
     <!-- Bottom Divider: Dark cocoa curved reveal SVG wave -->
     <div class="index-gallery-section__divider-wrapper">
         <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,80 L0,30 Q150,20 300,35 T600,25 Q750,35 900,20 T1200,30 L1200,80 Z" fill="#2C2415"/>
+            <path d="M0,80 L0,30 Q150,20 300,35 T600,25 Q750,35 900,20 T1200,30 L1200,80 Z" fill="#2C2415"></path>
         </svg>
     </div>
 </section>
@@ -1182,7 +1182,7 @@
         <div class="index-cta-section__reassurance-item">
           <span class="index-cta-section__reassurance-icon" aria-hidden="true">
             <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 10L9 14L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5 10L9 14L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </span>
           <p class="index-cta-section__reassurance-text">מענה אישי ומהיר לכל פנייה</p>
@@ -1190,7 +1190,7 @@
         <div class="index-cta-section__reassurance-item">
           <span class="index-cta-section__reassurance-icon" aria-hidden="true">
             <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 10L9 14L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5 10L9 14L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </span>
           <p class="index-cta-section__reassurance-text">מושלם לאירועים, חגיגות ומתנות מרגשות</p>
@@ -1198,7 +1198,7 @@
         <div class="index-cta-section__reassurance-item">
           <span class="index-cta-section__reassurance-icon" aria-hidden="true">
             <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 10L9 14L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5 10L9 14L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </span>
           <p class="index-cta-section__reassurance-text">השראה רעננה ומתוקה לכל עונה</p>
@@ -1212,24 +1212,24 @@
         <form class="index-cta-section__form contact-form">
           <div class="index-cta-section__field">
             <label for="cta-name" class="index-cta-section__label">שם מלא</label>
-            <input type="text" id="cta-name" name="name" class="index-cta-section__input" placeholder="השם שלך" required>
+            <input type="text" id="cta-name" name="name" class="index-cta-section__input" placeholder="השם שלך" required="">
           </div>
           <div class="index-cta-section__field">
             <label for="cta-email" class="index-cta-section__label">אימייל</label>
-            <input type="email" id="cta-email" name="email" class="index-cta-section__input" placeholder="[business_email]" required>
+            <input type="email" id="cta-email" name="email" class="index-cta-section__input" placeholder="[business_email]" required="">
           </div>
           <div class="index-cta-section__field">
             <label for="cta-phone" class="index-cta-section__label">טלפון</label>
-            <input type="tel" id="cta-phone" name="phone" class="index-cta-section__input" placeholder="[business_phone]">
+            <input type="tel" id="cta-phone" name="phone" class="index-cta-section__input" placeholder="099663242">
           </div>
           <div class="index-cta-section__field">
             <label for="cta-message" class="index-cta-section__label">הודעה</label>
-            <textarea id="cta-message" name="message" class="index-cta-section__textarea" rows="3" placeholder="מה תרצו לספר לנו?" required></textarea>
+            <textarea id="cta-message" name="message" class="index-cta-section__textarea" rows="3" placeholder="מה תרצו לספר לנו?" required=""></textarea>
           </div>
           
           <div class="privacy-consent index-cta-section__privacy">
             <label class="privacy-consent-label">
-              <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required>
+              <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
               <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
             </label>
           </div>
@@ -1273,21 +1273,19 @@
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:099663242">099663242</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%94%D7%9E%D7%A2%D7%9C%D7%99%D7%AA%202%2C%20%D7%A7%D7%93%D7%99%D7%9E%D7%94%2C%206092000%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">המעלית 2, קדימה, 6092000, ישראל</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1316,7 +1314,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/099663242" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
