@@ -1,0 +1,68 @@
+# אואזיס — Generative Engine Optimization Map
+
+> A business called 'Oasis' (אואזיס) — the name evokes themes of refuge, calm, freshness, and escape. No further details have been provided about the nature of the business.
+
+---
+
+## Pages
+
+### בית
+https://-4a740af9.zappy5.app
+מחפשים רגע של שקט ורעננות? אואזיס מזמינה אתכם לחוויית רוגע ייחודית שמשלבת נוחות, השראה ובריחה מהשגרה. היכנסו עכשיו וגלו עולם חדש של אפשרויות.
+
+### תודה רבה | אואזיס
+https://-4a740af9.zappy5.app/thank-you
+פנייתך התקבלה בהצלחה בצוות אואזיס. אנו ניצור עמך קשר בהקדם האפשרי.
+
+## Legal & Policy
+
+### Privacy Policy
+https://-4a740af9.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-4a740af9.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-4a740af9.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-4a740af9.zappy5.app
+- Endpoint: https://-4a740af9.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About אואזיס
+A business called 'Oasis' (אואזיס) — the name evokes themes of refuge, calm, freshness, and escape. No further details have been provided about the nature of the business.
+
+## Target Audience
+- אנשים שאוהבים קינוחים
+
+## Industry
+General Business
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-4a740af9.zappy5.app/sitemap.xml
+- Robots: https://-4a740af9.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-4a740af9.zappy5.app/llms-full.txt
